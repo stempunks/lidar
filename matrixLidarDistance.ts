@@ -31,7 +31,7 @@ let outFront = 0
 let outRight = 0
 
 
-//% block="Matrix LiDAR Distance"
+//% block="LIDAR"
 //% weight=100 color=#5b3fe8 icon="\uf124"
 //% groups="['Distance measurement', 'Obstacle Avoidance']"
 namespace matrixLidarDistance {
