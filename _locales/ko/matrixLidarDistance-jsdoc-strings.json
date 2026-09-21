@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "100mm 이내의 장애물이 감지되면 1을 출력하고, 그렇지 않으면 0을 출력합니다.",
+  "matrixLidarDistance.getData": "포괄적인 내부 계산을 거친 장애물 회피 관련 데이터를 한 번 획득합니다. ",
+  "matrixLidarDistance.getObstacleDistance": "블록은 장애물 회피 모드에서 작동합니다. 데이터는 매트릭스 레이저 데이터에 대한 포괄적인 계산을 내부에서 거쳤습니다. 좌측, 중앙, 우측 방향의 장애물 상황을 감지할 수 있어 유연한 응용에 편리합니다.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "측면으로, 예: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "센서의 I2C 구성과 매트릭스 모드 구성을 초기화합니다.",
+  "matrixLidarDistance.matrixPointOutput": "블록은 매트릭스 모드에서 독립적으로 작동합니다. 64개 레이저 빔 중 어느 것에 의해 감지된 거리 값을 읽을 수 있습니다.",
+  "matrixLidarDistance.matrixPointOutput|param|x": "x로, 예: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "y로, 예: 3",
+  "matrixLidarDistance.obstacleSuggestion": "\"사용자 정의 장애물 회피 거리\" 설정에 따라, 전면에 장애물이 감지되면 가능한 통과 방향을 제시합니다. 반환 값: 1은 좌측, 2는 우측, 3은 전면입니다.",
+  "matrixLidarDistance.setObstacleDistance": "\"방향 제시\"를 트리거하는 장애물의 거리 값을 사용자 정의합니다. 레이저 센서는 60도의 감지 범위를 가지며 일부 레이저 빔이 지면을 향할 수 있으므로, MaqueenPlus에서 사용할 때 최대 설정 거리는 200mm를 초과하지 않아야 합니다. 그렇지 않으면 지면이 감지되어 잘못된 데이터가 발생할 수 있습니다. 설치 거리를 늘려 레이저 빔이 지면에 닿는 것을 피할 수도 있습니다.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "거리로, 예: 10"
+} 

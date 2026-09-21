@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "Obstakelvermijding",
+  "matrixLidarDistance.Matrix.MAT|block": "Matrix",
+  "matrixLidarDistance.ObstacleSide.Front|block": "Voor",
+  "matrixLidarDistance.ObstacleSide.Left|block": "Links",
+  "matrixLidarDistance.ObstacleSide.Right|block": "Rechts",
+  "matrixLidarDistance.emergencyWarning|block": "100mm korte afstand waarschuwing",
+  "matrixLidarDistance.getData|block": "Obstakelvermijdingsgegevens verkrijgen",
+  "matrixLidarDistance.getObstacleDistance|block": "Afstandsdetectie in obstakelvermijdingsmodus %side (mm)",
+  "matrixLidarDistance.initialize|block": "Initialiseer I2C-adres $address van laserafstandssensor in matrixmodus $matrix",
+  "matrixLidarDistance.matrixPointOutput|block": "$address Meet afstand van gespecificeerd punt in matrixmodus x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "Richtingsindicatie in obstakelvermijdingsmodus",
+  "matrixLidarDistance.setObstacleDistance|block": "Pas obstakelvermijdingsafstand aan naar $distance (mm)",
+  "matrixLidarDistance|block": "Matrix LiDAR Afstand"
+} 

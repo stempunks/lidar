@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "Wenn ein Hindernis innerhalb von 100 mm erkannt wird, wird 1 ausgegeben; andernfalls wird 0 ausgegeben.",
+  "matrixLidarDistance.getData": "Holen Sie die Hindernisvermeidungsdaten ab, die umfassende interne Berechnungen durchlaufen haben. Der Matrix-Modus muss auf den 4*4-Modus eingestellt werden. Der 8*8-Modus verursacht Datenfehler oder keine Daten.",
+  "matrixLidarDistance.getObstacleDistance": "Der Block arbeitet im Hindernisvermeidungsmodus. Die Daten haben umfassende Berechnungen innerhalb der Matrix-Laser-Daten durchlaufen. Es kann Hindernissituationen in der linken, mittleren und rechten Richtung erkennen, was für flexible Anwendungen praktisch ist. Der Matrix-Modus muss auf den 4*4-Modus eingestellt werden. Der 8*8-Modus verursacht Datenfehler oder keine Daten.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "zur Seite, z.B.: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "Initialisieren Sie die I2C-Konfiguration und Matrix-Modus-Konfiguration des Sensors. Im Hindernisvermeidungsmodus wird nur der 4*4-Modus unterstützt, um die Bildrate zu erhöhen.",
+  "matrixLidarDistance.matrixPointOutput": "Der Block arbeitet unabhängig im Matrix-Modus. Es unterstützt sowohl 4*4- als auch 8*8-Modi. Es kann die von jedem der 64 Laserstrahlen erkannten Entfernungswerte lesen.",
+  "matrixLidarDistance.matrixPointOutput|param|x": "zu x, z.B.: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "zu y, z.B.: 3",
+  "matrixLidarDistance.obstacleSuggestion": "Gemäß den Einstellungen der \"benutzerdefinierten Hindernisvermeidungsentfernung\" wird bei Erkennung eines Hindernisses vorne auf die möglichen Durchfahrtsrichtungen hingewiesen. Rückgabewerte: 1 für die linke Seite, 2 für die rechte Seite, 3 für die Vorderseite.",
+  "matrixLidarDistance.setObstacleDistance": "Passen Sie den Entfernungswert des Hindernisses an, der die \"Richtungsanzeige\" auslöst. Da der Lasersensor einen Erkennungsbereich von 60 Grad hat und einige Laserstrahlen auf den Boden gerichtet sein können, sollte beim Verwenden auf MaqueenPlus die maximal eingestellte Entfernung 200 mm nicht überschreiten, da sonst der Boden erkannt werden könnte, was zu falschen Daten führt. Es ist auch möglich, das Auftreffen der Laserstrahlen auf den Boden zu vermeiden, indem der Installationsabstand erhöht wird.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "zur Entfernung, z.B.: 10"
+} 

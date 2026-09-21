@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "Vyhýbání překážkám",
+  "matrixLidarDistance.Matrix.MAT|block": "Matice",
+  "matrixLidarDistance.ObstacleSide.Front|block": "Vpředu",
+  "matrixLidarDistance.ObstacleSide.Left|block": "Vlevo",
+  "matrixLidarDistance.ObstacleSide.Right|block": "Vpravo",
+  "matrixLidarDistance.emergencyWarning|block": "100mm varování na krátkou vzdálenost",
+  "matrixLidarDistance.getData|block": "Získat data o vyhýbání překážkám",
+  "matrixLidarDistance.getObstacleDistance|block": "Detekce vzdálenosti v režimu vyhýbání překážkám %side (mm)",
+  "matrixLidarDistance.initialize|block": "Inicializovat I2C adresu $address laserového senzoru vzdálenosti v režimu matice $matrix",
+  "matrixLidarDistance.matrixPointOutput|block": "$address Měřit vzdálenost zadaného bodu v režimu matice x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "Indikace směru v režimu vyhýbání překážkám",
+  "matrixLidarDistance.setObstacleDistance|block": "Přizpůsobit vzdálenost vyhýbání překážkám na $distance (mm)",
+  "matrixLidarDistance|block": "Matice LiDAR Vzdálenost"
+} 

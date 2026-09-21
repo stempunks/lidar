@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "Wanneer een obstakel binnen 100 mm wordt gedetecteerd, wordt 1 uitgevoerd; anders wordt 0 uitgevoerd.",
+  "matrixLidarDistance.getData": "Verkrijg de obstakelvermijdingsgegevens die uitgebreide interne berekeningen hebben ondergaan. ",
+  "matrixLidarDistance.getObstacleDistance": "Het blok werkt in obstakelvermijdingsmodus. De gegevens hebben uitgebreide berekeningen ondergaan binnen de matrix lasergegevens. Het kan obstakelsituaties detecteren in de linker, middelste en rechter richtingen, wat handig is voor flexibele toepassingen.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "naar kant, bijv: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "Initialiseer de I2C-configuratie en matrixmodus-configuratie van de sensor. ",
+  "matrixLidarDistance.matrixPointOutput": "Het blok werkt onafhankelijk in matrixmodus. Het kan de afstandswaarden lezen die door elk van de 64 laserstralen worden gedetecteerd.",
+  "matrixLidarDistance.matrixPointOutput|param|x": "naar x, bijv: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "naar y, bijv: 3",
+  "matrixLidarDistance.obstacleSuggestion": "Volgens de instellingen van \"aangepaste obstakelvermijdingsafstand\", wanneer een obstakel aan de voorkant wordt gedetecteerd, suggereert het de mogelijke doorgangsrichtingen. Retourwaarden: 1 voor de linkerkant, 2 voor de rechterkant, 3 voor de voorkant.",
+  "matrixLidarDistance.setObstacleDistance": "Pas de afstandswaarde van het obstakel aan die de \"richtingsindicatie\" activeert. Aangezien de lasersensor een detectiebereik van 60 graden heeft en sommige laserstralen naar de grond kunnen zijn gericht, mag bij gebruik op MaqueenPlus de maximaal ingestelde afstand niet meer dan 200 mm bedragen, anders kan de grond worden gedetecteerd, wat resulteert in onjuiste gegevens. Het is ook mogelijk om te voorkomen dat laserstralen de grond raken door de installatieafstand te vergroten.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "naar afstand, bijv: 10"
+} 

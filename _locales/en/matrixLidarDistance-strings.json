@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "Obstacle avoidance",
+  "matrixLidarDistance.Matrix.MAT|block": "Matrix",
+  "matrixLidarDistance.ObstacleSide.Front|block": "Front",
+  "matrixLidarDistance.ObstacleSide.Left|block": "Left",
+  "matrixLidarDistance.ObstacleSide.Right|block": "Right",
+  "matrixLidarDistance.emergencyWarning|block": "Warn for close range within 100 mm.",
+  "matrixLidarDistance.getData|block": "Acquire obstacle avoidance data",
+  "matrixLidarDistance.getObstacleDistance|block": "Distance detection in obstacle avoidance mode %side (mm)",
+  "matrixLidarDistance.initialize|block": "Initialize the I2C address $address of the laser ranging sensor in $matrix matrix mode",
+  "matrixLidarDistance.matrixPointOutput|block": "$address Measure the distance of the specified point in matrix mode x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "Direction indication in obstacle avoidance mode",
+  "matrixLidarDistance.setObstacleDistance|block": "Customize the obstacle avoidance distance to $distance (mm)",
+  "matrixLidarDistance|block": "Matrix LiDAR Distance"
+}

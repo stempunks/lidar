@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "Když je detekována překážka do 100 mm, vyvede 1; jinak vyvede 0.",
+  "matrixLidarDistance.getData": "Získejte data o vyhýbání překážkám, která prošla komplexními vnitřními výpočty jednou. Režim matice musí být nastaven na 4*4 režim. 8*8 režim způsobí chyby dat nebo žádná data.",
+  "matrixLidarDistance.getObstacleDistance": "Blok pracuje v režimu vyhýbání překážkám. Data prošla komplexními výpočty uvnitř dat laserové matice. Může detekovat situace s překážkami v levém, středním a pravém směru, což je vhodné pro flexibilní aplikace. Režim matice musí být nastaven na 4*4 režim. 8*8 režim způsobí chyby dat nebo žádná data.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "na stranu, např: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "Inicializujte I2C konfiguraci a konfiguraci režimu matice senzoru. V režimu vyhýbání překážkám je podporován pouze 4*4 režim pro zvýšení snímkové frekvence.",
+  "matrixLidarDistance.matrixPointOutput": "Blok je nezávislý pracující v režimu matice. Podporuje jak 4*4, tak 8*8 režimy. Může číst hodnoty vzdálenosti detekované kterýmkoliv z 64 laserových paprsků.",
+  "matrixLidarDistance.matrixPointOutput|param|x": "na x, např: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "na y, např: 3",
+  "matrixLidarDistance.obstacleSuggestion": "Podle nastavení \"přizpůsobené vzdálenosti vyhýbání překážkám\", když je detekována překážka vpředu, naznačuje možné směry průchodu. Návratové hodnoty: 1 pro levou stranu, 2 pro pravou stranu, 3 pro přední stranu.",
+  "matrixLidarDistance.setObstacleDistance": "Přizpůsobte hodnotu vzdálenosti překážky, která spouští \"indikaci směru\". Protože laserový senzor má detekční rozsah 60 stupňů a některé laserové paprsky mohou být směrovány k zemi, při použití na MaqueenPlus by maximální nastavená vzdálenost neměla překročit 200 mm, jinak může být detekována země, což vede k nesprávným datům. Je také možné vyhnout se dopadu laserových paprsků na zem zvýšením instalační vzdálenosti.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "na vzdálenost, např: 10"
+} 

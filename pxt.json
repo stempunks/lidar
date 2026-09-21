@@ -1,0 +1,44 @@
+{
+    "name": "matrixLidarDistance",
+    "version": "1.1.2",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "matrixLidarDistance.ts",
+        "_locales/en/matrixLidarDistance-strings.json",
+        "_locales/en/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/zh-CN/matrixLidarDistance-strings.json",
+        "_locales/zh-CN/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/zh-TW/matrixLidarDistance-strings.json",
+        "_locales/zh-TW/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/ko/matrixLidarDistance-strings.json",
+        "_locales/ko/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/de/matrixLidarDistance-strings.json",
+        "_locales/de/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/es/matrixLidarDistance-strings.json",
+        "_locales/es/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/fr/matrixLidarDistance-strings.json",
+        "_locales/fr/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/nl/matrixLidarDistance-strings.json",
+        "_locales/nl/matrixLidarDistance-jsdoc-strings.json",
+        "_locales/cs/matrixLidarDistance-strings.json",
+        "_locales/cs/matrixLidarDistance-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

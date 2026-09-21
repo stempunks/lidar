@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "Hindernisvermeidung",
+  "matrixLidarDistance.Matrix.MAT|block": "Matrix",
+  "matrixLidarDistance.ObstacleSide.Front|block": "Vorne",
+  "matrixLidarDistance.ObstacleSide.Left|block": "Links",
+  "matrixLidarDistance.ObstacleSide.Right|block": "Rechts",
+  "matrixLidarDistance.emergencyWarning|block": "100mm Nahbereichswarnung",
+  "matrixLidarDistance.getData|block": "Hindernisvermeidungsdaten abrufen",
+  "matrixLidarDistance.getObstacleDistance|block": "Hindernisvermeidungsmodus Entfernungsmessung %side (mm)",
+  "matrixLidarDistance.initialize|block": "Laser-Entfernungsmesser I2C-Adresse $address Matrix-Modus $matrix initialisieren",
+  "matrixLidarDistance.matrixPointOutput|block": "$address Matrix-Modus spezifischer Punkt Entfernungsmessung x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "Hindernisvermeidungsmodus Richtungsanzeige",
+  "matrixLidarDistance.setObstacleDistance|block": "Hindernisvermeidungsmodus benutzerdefinierte Vermeidungsentfernung $distance (mm)",
+  "matrixLidarDistance|block": "Matrix LiDAR Entfernung"
+} 

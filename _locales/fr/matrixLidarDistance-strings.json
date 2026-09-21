@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "Évitement d'obstacles",
+  "matrixLidarDistance.Matrix.MAT|block": "Matrice",
+  "matrixLidarDistance.ObstacleSide.Front|block": "Avant",
+  "matrixLidarDistance.ObstacleSide.Left|block": "Gauche",
+  "matrixLidarDistance.ObstacleSide.Right|block": "Droite",
+  "matrixLidarDistance.emergencyWarning|block": "Avertissement de portée rapprochée 100mm",
+  "matrixLidarDistance.getData|block": "Acquérir les données d'évitement d'obstacles",
+  "matrixLidarDistance.getObstacleDistance|block": "Détection de distance en mode évitement d'obstacles %side (mm)",
+  "matrixLidarDistance.initialize|block": "Initialiser l'adresse I2C $address du capteur de distance laser en mode matrice $matrix",
+  "matrixLidarDistance.matrixPointOutput|block": "$address Mesurer la distance du point spécifié en mode matrice x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "Indication de direction en mode évitement d'obstacles",
+  "matrixLidarDistance.setObstacleDistance|block": "Personnaliser la distance d'évitement d'obstacles à $distance (mm)",
+  "matrixLidarDistance|block": "Distance LiDAR Matrice"
+} 

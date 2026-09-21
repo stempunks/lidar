@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "장애물 회피",
+  "matrixLidarDistance.Matrix.MAT|block": "매트릭스",
+  "matrixLidarDistance.ObstacleSide.Front|block": "전면",
+  "matrixLidarDistance.ObstacleSide.Left|block": "좌측",
+  "matrixLidarDistance.ObstacleSide.Right|block": "우측",
+  "matrixLidarDistance.emergencyWarning|block": "100mm 근거리 경고",
+  "matrixLidarDistance.getData|block": "장애물 회피 데이터 획득",
+  "matrixLidarDistance.getObstacleDistance|block": "장애물 회피 모드 거리 감지 %side (mm)",
+  "matrixLidarDistance.initialize|block": "레이저 거리 측정 센서 I2C 주소 $address 매트릭스 모드 $matrix 초기화",
+  "matrixLidarDistance.matrixPointOutput|block": "$address 매트릭스 모드 지정점 거리 측정 x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "장애물 회피 모드 방향 제시",
+  "matrixLidarDistance.setObstacleDistance|block": "장애물 회피 모드 사용자 정의 회피 거리 $distance (mm)",
+  "matrixLidarDistance|block": "매트릭스 라이다 거리"
+} 

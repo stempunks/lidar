@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "Lorsqu'un obstacle est détecté dans un rayon de 100 mm, il émet 1; sinon, il émet 0.",
+  "matrixLidarDistance.getData": "Acquérir les données d'évitement d'obstacles qui ont subi des calculs internes complets une fois. ",
+  "matrixLidarDistance.getObstacleDistance": "Le bloc fonctionne en mode évitement d'obstacles. Les données ont subi des calculs complets à l'intérieur des données laser de matrice. Il peut détecter les situations d'obstacles dans les directions gauche, centre et droite, ce qui est pratique pour des applications flexibles.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "vers le côté, ex: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "Initialiser la configuration I2C et la configuration du mode matrice du capteur.",
+  "matrixLidarDistance.matrixPointOutput": "Le bloc fonctionne indépendamment en mode matrice.",
+  "matrixLidarDistance.matrixPointOutput|param|x": "vers x, ex: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "vers y, ex: 3",
+  "matrixLidarDistance.obstacleSuggestion": "Selon les paramètres de \"distance d'évitement d'obstacles personnalisée\", lorsqu'un obstacle est détecté à l'avant, suggère les directions de passage possibles. Valeurs de retour: 1 pour le côté gauche, 2 pour le côté droit, 3 pour l'avant.",
+  "matrixLidarDistance.setObstacleDistance": "Personnaliser la valeur de distance de l'obstacle qui déclenche l'\"indication de direction\". Comme le capteur laser a une plage de détection de 60 degrés et que certains faisceaux laser peuvent être dirigés vers le sol, lors de l'utilisation sur MaqueenPlus, la distance maximale définie ne doit pas dépasser 200 mm, sinon le sol peut être détecté, résultant en des données incorrectes. Il est également possible d'éviter que les faisceaux laser touchent le sol en augmentant la distance d'installation.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "vers distance, ex: 10"
+} 

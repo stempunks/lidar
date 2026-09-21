@@ -1,0 +1,19 @@
+{
+  "matrixLidarDistance.Addr.Addr1|block": "0x30",
+  "matrixLidarDistance.Addr.Addr2|block": "0x31",
+  "matrixLidarDistance.Addr.Addr3|block": "0x32",
+  "matrixLidarDistance.Addr.Addr4|block": "0x33",
+  "matrixLidarDistance.Matrix.OBS|block": "避障模式",
+  "matrixLidarDistance.Matrix.MAT|block": "矩陣模式",
+  "matrixLidarDistance.ObstacleSide.Front|block": "前方",
+  "matrixLidarDistance.ObstacleSide.Left|block": "左側",
+  "matrixLidarDistance.ObstacleSide.Right|block": "右側",
+  "matrixLidarDistance.emergencyWarning|block": "100mm近距離警告",
+  "matrixLidarDistance.getData|block": "獲取避障資料",
+  "matrixLidarDistance.getObstacleDistance|block": "避障模式 距離檢測 %side (mm)",
+  "matrixLidarDistance.initialize|block": "初始化激光測距傳感器 I2C地址 $address $matrix",
+  "matrixLidarDistance.matrixPointOutput|block": "$address 矩陣模式 指定點測距 x: %x y: %y (mm)",
+  "matrixLidarDistance.obstacleSuggestion|block": "避障模式 方向提示",
+  "matrixLidarDistance.setObstacleDistance|block": "自訂避障距離 $distance (mm)",
+  "matrixLidarDistance|block": "矩陣激光測距"
+}

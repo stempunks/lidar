@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "當檢測到距離障礙物 100mm 內，即輸出 1，否則輸出 0 。",
+  "matrixLidarDistance.getData": "獲取一次經過內部綜合計算的避障相關資料",
+  "matrixLidarDistance.getObstacleDistance": "該 black 工作在避障模式。資料經過了內部對矩陣激光資料的綜合計算。可檢測左中右三個方向的障礙物情況。",
+  "matrixLidarDistance.getObstacleDistance|param|side": "to side ,eg: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "初始化傳感器的 I2C 配置及矩陣模式配置。",
+  "matrixLidarDistance.matrixPointOutput": "該 black 是工作在矩陣模式下的獨立 black，可讀取任意 64 個激光束檢測到的距離值。",
+  "matrixLidarDistance.matrixPointOutput|param|x": "to x ,eg: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "to y ,eg: 3",
+  "matrixLidarDistance.obstacleSuggestion": "根據「自訂避障距離」的設定，當檢測到前方有障礙物時，提示可能可以通過的方向。返回值：1 左側，2 右側，3 前方",
+  "matrixLidarDistance.setObstacleDistance": "自訂觸發「方向提示」的障礙物距離值。由於激光傳感器具有 60 度檢測範圍，部分激光束可能會射向地面，所以，在 MaqueenPlus 上使用時，最大設定距離不應超過 200mm，否則可能檢測到地面導致數據錯誤。也可以透過提高安裝距離的方式避免激光束打到地面上。",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "to distance ,eg: 200"
+}

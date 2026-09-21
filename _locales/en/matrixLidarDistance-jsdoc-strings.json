@@ -1,0 +1,13 @@
+{
+  "matrixLidarDistance.emergencyWarning": "When an obstacle within 100 mm is detected, it will output 1; otherwise, it will output 0.",
+  "matrixLidarDistance.getData": "Acquire the obstacle avoidance related data that has undergone comprehensive internal calculations once. ",
+  "matrixLidarDistance.getObstacleDistance": "The black is an independent one working in the matrix mode.It can read the distance values detected by any of the 64 laser beams.",
+  "matrixLidarDistance.getObstacleDistance|param|side": "to side ,eg: ObstacleSide.Left",
+  "matrixLidarDistance.initialize": "Initialize the I2C configuration and matrix mode configuration of the sensor. ",
+  "matrixLidarDistance.matrixPointOutput": "The black is an independent one working in the matrix mode. ",
+  "matrixLidarDistance.matrixPointOutput|param|x": "to x ,eg: 3",
+  "matrixLidarDistance.matrixPointOutput|param|y": "to y ,eg: 3",
+  "matrixLidarDistance.obstacleSuggestion": "According to the settings of \"customized obstacle avoidance distance\", when an obstacle is detected in front, prompt the possible passing directions. Return values: 1 for the left side, 2 for the right side, 3 for the front.",
+  "matrixLidarDistance.setObstacleDistance": "Customize the distance value of the obstacle that triggers the \"direction indication\". Since the laser sensor has a detection range of 60 degrees and some laser beams may be directed towards the ground, when it is used on MaqueenPlus, the maximum set distance should not exceed 200 mm, otherwise the ground may be detected, resulting in incorrect data. It is also possible to avoid the laser beams hitting the ground by increasing the installation distance.",
+  "matrixLidarDistance.setObstacleDistance|param|distance": "to distance ,eg: 10"
+}
